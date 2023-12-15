@@ -56,6 +56,12 @@
       flex-basis: 100%;
       text-align: center;
    }
+   .app-download{
+      flex-basis: 100%;
+   }
+   .footer-content{
+      flex-basis: 100%;
+   }
 }
 
 /* * 479px Media screen Responsive style */
