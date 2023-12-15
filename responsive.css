@@ -22,6 +22,29 @@
    .header-content h1{
       font-size: 35px;
    }
+   .exclusive-img{
+      flex-basis: 100%;
+   }
+   .exclusive-img img{
+      width: 500px;
+      padding: 0;
+   }
+   .exclusive-container{
+      justify-content: center;
+   }
+   .exclusive-content{
+      flex-basis: 100%;
+      text-align: center;
+      margin-top: 30px;
+   }
+   .exclusive-content h2{
+      font-size: 40px;
+   }
+   .exclusive-btn{
+      display: block;
+      width: 175px;
+      margin:20px auto;
+   }
 }
 
 /* * 767px media scree Responsive Style */

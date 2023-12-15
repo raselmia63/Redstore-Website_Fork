@@ -8,6 +8,7 @@
    max-width: 1080px;
    margin: 0 auto;
    padding: 0 20px;
+   overflow: hidden;
 }
 .flex{
    display: flex;
@@ -82,6 +83,10 @@ header{
    background-color: #ff523b;
    border-radius: 30px;
    color: #fff;
+   transition: .2s;
+}
+.header-content .hero-btn:hover {
+   background-color: #563434;
 }
 .hero-image img{
    max-width: 100%;
@@ -150,3 +155,105 @@ header{
 .product-image p{
    color: #555;
 }
+
+/* * Exclusive -section */
+.exclusive-section{
+   padding: 30px 0;
+   background-image: radial-gradient(#fff, #ffd6d6);
+}
+.exclusive-container {
+   justify-content: space-between;
+}
+.exclusive-img{
+   flex-basis: 50%;
+}
+.exclusive-content{
+   flex-basis: 50%;
+   color: #555;
+}
+.exclusive-img img{
+   width: 100%;
+   padding: 50px;
+}
+.exclusive-content h2{
+   font-size: 50px;
+   margin: 25px 0;
+}
+.exclusive-content small{
+   font-size: 13px;
+}
+.exclusive-btn {
+   display: inline-block;
+   text-decoration: none;
+   margin: 30px 0;
+   padding: 8px 30px;
+   background-color: #ff523b;
+   border-radius: 30px;
+   color: #fff;
+   transition: .2s;
+}
+.exclusive-btn:hover {
+   background-color: #563434;
+}
+
+/* * Testimonial section */
+.testimonial-section{
+   padding: 100px 0 0;
+}
+.testimonial-box{
+   justify-content: space-around;
+}
+.testiomonial-user{
+   flex-basis: 30%;
+   min-width: 300px;
+   box-shadow: 0 0 20px rgba(0,0,0,.1);
+   padding:40px 20px;
+   text-align: center;
+   margin-bottom: 30px;
+   transition: transform .4s;
+}
+.testiomonial-user:hover{
+   transform: translatey(-5px);
+}
+.testiomonial-user .fa-quote-left{
+   font-size: 30px;
+   color: #ff523b;
+}
+.testiomonial-user p{
+   font-size: 14px;
+   margin: 12px 0;
+   color: #555;
+}
+.testiomonial-user .rating{
+   color: #ff523b;
+   text-align: center;
+}
+.testiomonial-user img{
+   width:50px;
+   border-radius: 50%;
+   margin-top: 20px;
+}
+.testiomonial-user h3{
+   color: #555;
+}
+
+/**==============Brands=============*/
+.brands{
+   margin: 100px 0;
+}
+.brands-container{
+   justify-content: space-around;
+}
+.brands-logo{
+   width: 160px;
+}
+.brands-logo img{
+   width: 100%;
+   cursor: pointer;
+   filter: grayscale(100%);
+}
+.brands-logo img:hover{
+   filter: none;
+}
+
+/* * Footer section style */
