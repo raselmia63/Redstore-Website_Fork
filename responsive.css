@@ -40,4 +40,13 @@
    .header-content h1{
       font-size: 30px;
    }
+   .categories-image{
+      flex-basis: 80%;
+   }
+   .product-image{
+      flex-basis: 85%;
+   }
+   .product-image:hover{
+      transform:translateY(0px); 
+    }
 }
