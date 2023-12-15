@@ -1,0 +1,43 @@
+@media screen and (max-width:991px){
+   
+   .nav-menu ul{
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: -100%;
+      width: 100%;
+      text-align: center;
+      background-color:transparent;
+      padding: 20px;
+   }
+   .nav-bars{
+      display: block;
+   }
+   .active{
+      left: 0;
+   }
+   .nav-menu ul li{
+      margin-bottom: 25px;
+   }
+   .header-content h1{
+      font-size: 35px;
+   }
+}
+
+/* * 767px media scree Responsive Style */
+@media screen and (max-width:767px){
+   .header-hero{
+      flex-direction: column-reverse;
+   }
+   .flex{
+      flex-basis: 100%;
+      text-align: center;
+   }
+}
+
+/* * 479px Media screen Responsive style */
+@media screen and (max-width:479px){
+   .header-content h1{
+      font-size: 30px;
+   }
+}

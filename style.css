@@ -1,0 +1,85 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'poppins', sans-serif;
+}
+/* * Heder area styl */
+header{
+   background-image: radial-gradient(#fff, #ffd6d6);
+}
+.container{
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 0 20px;
+   overflow: hidden;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   position: relative;
+}
+.nav-logo img{
+   width: 125px;
+}
+.nav-menu{
+   display: flex;
+   align-items: center;
+}
+.nav-menu ul{
+   display: flex;
+   gap: 25px;
+   list-style-type: none;
+}
+.nav-menu ul a{
+   color: #555;
+   text-decoration: none;
+}
+.cart-img {
+   margin-left: 20px;
+}
+.nav-bars{
+   margin-left: 20px;
+   display: none;
+}
+.nav-bars i{
+   font-size: 25px;
+}
+
+/* * header hero area style */
+.header-hero{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 0 20px;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.flex{
+   flex-basis: 50%;
+   min-width: 300px;
+}
+.header-content h1{
+   margin: 25px 0;
+   font-size: 45px;
+   color: #555;
+}
+.header-content p{
+   color: #555;
+}
+.header-content .hero-btn {
+   display: inline-block;
+   text-decoration: none;
+   margin: 30px 0;
+   padding: 8px 30px;
+   background-color: #ff523b;
+   border-radius: 30px;
+   color: #fff;
+}
+.hero-image img{
+   max-width: 100%;
+   padding: 50px 0;
+
+}
